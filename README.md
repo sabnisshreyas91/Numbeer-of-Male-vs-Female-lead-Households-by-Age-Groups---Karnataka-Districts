@@ -7,25 +7,10 @@ The modified dataset is as below:
 ![modified_dataset](images/modified_dataset.PNG)
 
 
-The list of all columns is as below:
+The full list of all columns is as below:
 
--district code
--area name
--total/rural/urban
--age of the head of household in years
--total households - male head
--total households - female head
--never married - male head
--never married - female head
--currently married - male head
--currently married - female head
--widowed - male head
--widowed - female head
--divorced - male head
--divorced - female head
--separated - male head
--separated - female head
--total households (sum of 'total households - male head' and 'total households - female head')
+![full_col_list](images/full_column_list.PNG)
+
 
 
 
