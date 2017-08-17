@@ -66,7 +66,7 @@ VISUALIZATIONS:
 
 Relative proprotion of male-lead vs female-lead households (all ages):
 
-![heatmap](images/heatmap.PNG)
+![heatmap](images/heatmap_.png)
 
 districts have been arranged from left to right in increasing order of % male-lead households. It is easy to note that bangalore (88%) and bidar(86%) have the highest proportion of male-headed households while udupi(62%) and dakshina kannada(75%) have the lowest proportion. The heatmap also makes it easy to see how little the proportion of male vs female headed households varies for the rest of the areas - betweeen 79% to 85%
 
