@@ -83,5 +83,9 @@ The below plot excludes bangalore from the scatter plot:
 
 ![scatter](images/scatter.png)
 
-This chart presents an interesing observation - the highighted data point - (udupi-rural-80+) is the ONLY data point in the dataset, even at leaf level where the number of female-lead households are greater than the number of male-lead households.
+This chart presents an interesing observation - the highighted data point - (udupi-rural-80+) is the ONLY data point in the dataset, even at leaf level which is above the x=y line; i.e. where the number of female-lead households are greater than the number of male-lead households.
+
+NEXT STEPS:
+
+The analysis of this dataset is far from complete. There are several more angles of investigation (particularly the split of households by marital status) that will no doubt lead to more interesting visualizations.
 
