@@ -17,7 +17,7 @@ This level can be further split as 'State - KARNATAKA','Rural','All Ages' and 'S
 
 ![levels](images/levels.PNG)
 
-Further, the 'Total',Rural' and 'Urban' levels for 'State - KARNATAKA' 'All Ages' can be further split on age groups as below:
+Further, the 'Total',Rural' and 'Urban' levels for 'State - KARNATAKA' 'All Ages' can be split on age groups as below:
 
 ![age_levels](images/levels_2.PNG)
 
