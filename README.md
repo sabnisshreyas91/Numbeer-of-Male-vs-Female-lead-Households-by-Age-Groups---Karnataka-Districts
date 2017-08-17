@@ -21,7 +21,7 @@ Further, the 'Total',Rural' and 'Urban' levels for 'State - KARNATAKA' 'All Ages
 
 ![age_levels](images/levels_2.PNG)
 
-There are 3 levels below and including 'Total' (Total/Rural/Urban) and 10 levels below and including 'All Ages'. Therefore each 'Area Name' should be 30 rows. Further there are 31 areas including and below 'State - KARNATAKA' :
+There are 3 levels below and including 'Total' (Total/Rural/Urban) and 10 levels below and including 'All Ages'. Therefore each 'Area Name' should be 30 rows. Further there are 31 areas including and below 'State - KARNATAKA' : 
 
 ![areas](images/areas_list.PNG)
 
