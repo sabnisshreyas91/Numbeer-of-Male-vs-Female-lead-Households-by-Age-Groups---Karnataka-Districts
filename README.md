@@ -38,7 +38,37 @@ The columns as well have levels of aggregtion summaried as below:
 
 
 
+DATA PRE-PROCESSING :
 
+All text columns - 'area name', 'head of the head of household in years' and 'total/rural/urban' are converted to lower case.
+
+DATA CHECKS:
+
+1) Check to identify missing data (NULL,NaN) data in any of the data columns
+
+2) Check to validate if district code - area name columns have a one-one mappin
+
+3) Check to identify any unexpected values in the 'total/rural/urban' column
+
+4) As established earlier, we expect each district code to have 30 rows associated with it. We check to validate if any districts have any missing levels
+
+5) i) Column-sum check: total households - male head = never married - male head +currently married - male head + widowed - male head + divorced - male head + separated - male head
+
+  ii) Column-sum check: total households - female head = never married - female head +currently married - female head + widowed - female head + divorced - female head + separated - female head
+  
+6) Column-sum check: total households = total households - male head + total households - female head
+
+7) Row-sum check: all ages = SUM(Less than 20, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80+, Age Not Stated)
+
+8) Row-sum check: total = rural +urban 
+
+VISUALIZATIONS:
+
+Relative proprotion of male-lead vs female-lead households (all ages):
+
+![heatmap](images/heatmap.PNG)
+
+districts have been arranged from left to right in increasing order of % male-lead households. It is easy to note that bangalore (88%) and bidar(86%) have the highest proportion of male-headed households while udupi(62%) and dakshina kannada(75%) have the lowest proportion. The heatmap also makes it easy to see how little the proportion of male vs female headed households varies for the rest of the areas - betweeen 79% to 85%
 
 
 
