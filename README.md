@@ -11,9 +11,9 @@ The full list of all columns is as below:
 
 ![full_col_list](images/full_column_list.PNG)
 
-from the first screenshot, it is clear that the dataset has a hierarchical structure. The highest level being (KARNATAKA-Total-All Ages).
+from the first screenshot, it is clear that the dataset has a hierarchical structure. The highest level being (KARNATAKA--Total--All Ages).
 
-This level can be further split as (KARNATAKA-Rural-All Ages) and (KARNATAKA-Urban-All Ages)
+This level can be further split as (KARNATAKA--Rural--All Ages) and (KARNATAKA--Urban--All Ages)
 
 ![levels](images/levels.PNG)
 
