@@ -64,12 +64,24 @@ DATA CHECKS:
 
 VISUALIZATIONS:
 
-Relative proprotion of male-lead vs female-lead households (all ages):
+1) Relative proportion of male-lead vs female-lead households (all ages) by district:
 
 ![heatmap](images/heatmap_.png)
 
-districts have been arranged from left to right in increasing order of % male-lead households. It is easy to note that bangalore (88%) and bidar(86%) have the highest proportion of male-headed households while udupi(62%) and dakshina kannada(75%) have the lowest proportion. The heatmap also makes it easy to see how little the proportion of male vs female headed households varies for the rest of the areas - betweeen 79% to 85%
+The above visualization has been generated using Plotly.Districts have been arranged from left to right in increasing order of % male-lead households. It is easy to note that bangalore (88%) and bidar(86%) have the highest proportion of male-headed households while udupi(62%) and dakshina kannada(75%) have the lowest proportion. The heatmap also makes it easy to see how little the proportion of male vs female headed households varies for the rest of the areas - betweeen 79% to 85%
 
 
+2) Relative proportion of male-lead vs female-lead households by age and district:
 
+![scatter_with_blore](images/scatter_with_blore.PNG)
+
+The above visualization has been generated matplotlib and mpld3. Hovering on any point on the scatterplot results in a tooltip with the relevant information. For ease of visualization, the scale of the X and Y axes are different and a X=Y line is superimposed with the scatterplot to understand the proprotion of male vs female lead households for each point. Rural areas are coded green while urban areas blue.
+
+However the above scatter plot is obscured due to the large number of urban households in bangalore (note the blue points on the upper-right side)
+
+The below plot excludes bangalore from the scatter plot:
+
+![scatter](images/scatter.PNG)
+
+This chart presents an interesing observation - the highighted data point - (udupi-rural-80+) is the ONLY data point in the dataset, even at leaf level where the number of female-lead households are greater than the number of male-lead households.
 
