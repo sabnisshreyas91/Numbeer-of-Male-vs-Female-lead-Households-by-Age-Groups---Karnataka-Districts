@@ -25,6 +25,8 @@ There are 3 levels below and including 'Total' (Total/Rural/Urban) and 10 levels
 
 ![areas](images/areas_list.PNG)
 
+District Codes uniquely identify Areas eg. District Code 0 identifies - 'State - KARNATAKA'
+
 
 
 
