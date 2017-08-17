@@ -73,7 +73,7 @@ The above visualization has been generated using Plotly.Districts have been arra
 
 2) Relative proportion of male-lead vs female-lead households by age and district:
 
-![scatter_with_blore](images/scatter_with_blore.png)
+![scatter_with_blore](images/Scatter_with_blore.png)
 
 The above visualization has been generated matplotlib and mpld3. Hovering on any point on the scatterplot results in a tooltip with the relevant information. For ease of visualization, the scale of the X and Y axes are different and a X=Y line is superimposed with the scatterplot to understand the proprotion of male vs female lead households for each point. Rural areas are coded green while urban areas blue.
 
